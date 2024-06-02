@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     for(let i=0; i<10; i++){
+    //         for(let j=0; j<10; j++){
+    //             document.write("<p> cetak"+i+","+i+"<p/>")
+    //         }
+    //     }
+    // 
+    var notif =confirm("apakah anda ingin mengulang");
+    var nilai=0;
+
+    while(notif){
+        nilai++
+        var bintang = "*".repeat(nilai) +"<br>";
+        document.write(nilai + ":" + bintang);
+        notif = confirm ("apakah anda ingin mengulang")
+
+
+        document.write()
+    }
+    </script>
+</body>
+</html>

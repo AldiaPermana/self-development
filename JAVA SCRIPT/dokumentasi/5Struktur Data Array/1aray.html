@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var produk = ["kertas","banner","stiker","sablon"]
+        // document.write(produk[1]);
+
+        //pakai for
+        // var produk = ["seblak","baso","cilok","popice"];
+        // document.write ("<h2>Daftar Menu:</h2>");
+        //     document.write("<ol>");
+        //         for(let i=0; i <produk.length; i++){
+        //             document.write(`<li>${ produk[i] }</li>`);
+
+        //         }
+        //         document.write("</ol>");
+       //pakai foreach  
+       var produk = ["baju","kemeja","kaos","levis"];
+       document.write("<h3>Daftar Baju</h3>");
+       document.write("<ul>")
+       produk.forEach((barang) =>{
+        document.write(`<li>${barang}</li>`);
+
+       }
+    
+    );
+    document.write("</ul>")
+    </script>
+    
+</body>
+</html>

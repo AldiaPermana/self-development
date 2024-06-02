@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var ulangi = confirm("ulangi hitungan")
+        // var nilai = 0;
+        // while(ulangi) {
+        //     var jawab = confirm("apakah benar akan di ulang")
+        //     nilai++;
+        //     if (jawab == false){
+        //         ulangi = false
+        //     }
+        // }
+        // document.write("hitungan perulangan yang ke "+ nilai +" kali ")
+        //disederhanakan
+            var notif = confirm("apa mau di ulang")
+            var nilai = 0;
+            while (notif) {
+                notif = confirm("bener mau di ulang")
+                nilai++
+            }
+            document.write("nilai yang di ualng adalah: "+nilai+" kali")
+    </script>
+</body>
+</html>
